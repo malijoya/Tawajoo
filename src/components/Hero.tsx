@@ -27,9 +27,9 @@ export default function Hero() {
                             <span className="gradient-text">That Moves Your Brand</span>
                         </h1>
                         <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-8 max-w-xl mx-auto lg:mx-0">
-                            Transform city rikshaws into powerful advertising platforms. Our SMD displays
-                            take your brand message across the entire city, reaching thousands of potential
-                            customers every day.
+                            Transform city rikshaws into powerful advertising platforms. Our professionally
+                            framed poster displays take your brand message across the entire city, reaching
+                            thousands of potential customers every day.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                             <Link href="#contact" className="btn-primary text-center">
@@ -63,12 +63,12 @@ export default function Hero() {
                             {/* Rikshaw illustration placeholder */}
                             <div className="absolute inset-0 flex items-center justify-center">
                                 <div className="relative">
-                                    {/* SMD Display representation */}
-                                    <div className="w-80 h-48 bg-gradient-to-br from-primary to-primary-400 rounded-2xl shadow-2xl shadow-primary/30 flex items-center justify-center animate-float">
+                                    {/* Poster Frame representation */}
+                                    <div className="w-80 h-48 bg-gradient-to-br from-primary to-primary-400 rounded-2xl shadow-2xl shadow-primary/30 flex items-center justify-center animate-float border-4 border-white/30">
                                         <div className="text-center text-white p-4">
-                                            <div className="text-4xl mb-2">📺</div>
-                                            <div className="font-bold text-xl">SMD Display</div>
-                                            <div className="text-sm opacity-80">Your Ad Here</div>
+                                            <div className="text-4xl mb-2">🖼️</div>
+                                            <div className="font-bold text-xl">Poster Frame</div>
+                                            <div className="text-sm opacity-80">Your Brand Here</div>
                                         </div>
                                     </div>
 

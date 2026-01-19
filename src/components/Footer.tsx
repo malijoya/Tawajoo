@@ -12,10 +12,10 @@ export default function Footer() {
             { name: 'Contact', href: '#contact' },
         ],
         services: [
-            { name: 'SMD Advertising', href: '#services' },
+            { name: 'Poster Advertising', href: '#services' },
             { name: 'Creative Design', href: '#services' },
             { name: 'Route Planning', href: '#services' },
-            { name: 'Analytics', href: '#services' },
+            { name: 'Frame Installation', href: '#services' },
         ],
         support: [
             { name: 'FAQs', href: '#' },

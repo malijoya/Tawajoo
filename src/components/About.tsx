@@ -7,8 +7,8 @@ export default function About() {
         },
         {
             icon: '💡',
-            title: 'Innovation',
-            description: 'Cutting-edge SMD technology delivers vibrant, eye-catching displays that capture attention.',
+            title: 'Quality Frames',
+            description: 'Premium poster frames with weather-resistant design that keep your brand looking sharp.',
         },
         {
             icon: '💰',
@@ -36,7 +36,7 @@ export default function About() {
                     </h2>
                     <p className="text-lg text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
                         Tawajoo transforms ordinary rikshaws into extraordinary advertising platforms.
-                        We connect brands with mobile audiences through innovative SMD technology,
+                        We connect brands with mobile audiences through professionally framed posters,
                         making advertising more accessible, affordable, and effective.
                     </p>
                 </div>

@@ -4,12 +4,12 @@ import './globals.css'
 
 export const metadata: Metadata = {
     title: 'Tawajoo - Mobile Advertising That Moves Your Brand',
-    description: 'Transform city rikshaws into powerful advertising platforms. Our SMD displays take your brand message across the entire city, reaching thousands of potential customers every day.',
-    keywords: ['mobile advertising', 'rikshaw advertising', 'SMD display', 'outdoor advertising', 'Pakistan', 'brand marketing'],
+    description: 'Transform city rikshaws into powerful advertising platforms. Our professionally framed poster displays take your brand message across the entire city, reaching thousands of potential customers every day.',
+    keywords: ['mobile advertising', 'rikshaw advertising', 'poster advertising', 'outdoor advertising', 'Pakistan', 'brand marketing'],
     authors: [{ name: 'Tawajoo' }],
     openGraph: {
         title: 'Tawajoo - Mobile Advertising That Moves Your Brand',
-        description: 'Transform city rikshaws into powerful advertising platforms with cutting-edge SMD technology.',
+        description: 'Transform city rikshaws into powerful advertising platforms with professionally framed poster displays.',
         type: 'website',
         locale: 'en_US',
     },

@@ -1,16 +1,16 @@
 export default function Services() {
     const services = [
         {
-            icon: '📺',
-            title: 'SMD Display Advertising',
-            description: 'High-resolution LED displays that showcase your brand with vivid colors and sharp visuals, visible day and night.',
-            features: ['HD Quality Display', 'Weather Resistant', 'Night Visibility'],
+            icon: '🖼️',
+            title: 'Poster Frame Advertising',
+            description: 'High-quality printed posters in durable frames that showcase your brand with vibrant colors and professional finish.',
+            features: ['Premium Print Quality', 'Weather Resistant Frames', 'High Visibility'],
         },
         {
             icon: '🎨',
             title: 'Creative Design Services',
-            description: 'Our in-house design team creates eye-catching advertisements optimized for mobile display formats.',
-            features: ['Custom Designs', 'Brand Guidelines', 'Animation Support'],
+            description: 'Our in-house design team creates eye-catching poster advertisements that grab attention on the move.',
+            features: ['Custom Designs', 'Brand Guidelines', 'Print-Ready Formats'],
         },
         {
             icon: '📍',
@@ -19,16 +19,16 @@ export default function Services() {
             features: ['Zone Selection', 'Peak Hours Coverage', 'Event Targeting'],
         },
         {
-            icon: '📊',
-            title: 'Analytics & Reporting',
-            description: 'Comprehensive tracking and reporting system to measure your campaign effectiveness.',
-            features: ['Real-time Tracking', 'Impression Reports', 'ROI Analysis'],
+            icon: '🛡️',
+            title: 'Durable Frame Installation',
+            description: 'Professional installation of sturdy poster frames on rikshaws that withstand daily wear and weather conditions.',
+            features: ['Secure Mounting', 'Easy Poster Swap', 'Long-lasting Frames'],
         },
         {
             icon: '🔄',
             title: 'Flexible Campaigns',
-            description: 'Run campaigns for a day, a week, or year-round. Update your content anytime remotely.',
-            features: ['Daily Updates', 'Remote Control', 'Scalable Plans'],
+            description: 'Run campaigns for a day, a week, or year-round. Update your posters anytime with quick turnaround.',
+            features: ['Quick Updates', 'Poster Replacement', 'Scalable Plans'],
         },
         {
             icon: '🤝',
@@ -51,7 +51,7 @@ export default function Services() {
                         <span className="gradient-text">Succeed</span>
                     </h2>
                     <p className="text-lg text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
-                        From design to deployment, we provide end-to-end mobile advertising solutions
+                        From design to deployment, we provide end-to-end mobile poster advertising solutions
                         that drive results for your brand.
                     </p>
                 </div>
