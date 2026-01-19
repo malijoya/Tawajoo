@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --primary: #FF6B00;
+  --primary-light: #FF8524;
+  --primary-dark: #CC5500;
+  --background: #ffffff;
+  --foreground: #121212;
+  --card-bg: #f8fafc;
+  --card-border: #e2e8f0;
+}
+
+.dark {
+  --background: #121212;
+  --foreground: #ffffff;
+  --card-bg: #1f1f1f;
+  --card-border: #2a2a2a;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  background: var(--background);
+  color: var(--foreground);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--card-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-dark);
+}
+
+/* Gradient text utility */
+.gradient-text {
+  background: linear-gradient(135deg, #FF6B00 0%, #FF8524 50%, #FFA347 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Glass effect */
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dark .glass {
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Button styles */
+.btn-primary {
+  @apply bg-primary text-white px-6 py-3 rounded-full font-semibold 
+         transition-all duration-300 hover:bg-primary-600 hover:shadow-lg 
+         hover:shadow-primary/30 active:scale-95;
+}
+
+.btn-secondary {
+  @apply bg-transparent border-2 border-primary text-primary px-6 py-3 
+         rounded-full font-semibold transition-all duration-300 
+         hover:bg-primary hover:text-white active:scale-95;
+}
+
+/* Card hover effect */
+.card-hover {
+  @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+}
+
+/* Section padding */
+.section-padding {
+  @apply py-16 md:py-24 px-4 md:px-8 lg:px-16;
+}
+
+/* Container */
+.container-custom {
+  @apply max-w-7xl mx-auto px-4 md:px-8;
+}
+
+/* Animate on scroll placeholder class */
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.animate-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
